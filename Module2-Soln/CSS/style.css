@@ -14,6 +14,7 @@ h1 {
 	color:black;    
 	text-align: center; 
   font-size: 175%
+  font-weight: italic;
     
 	border:none;
 	}
@@ -59,9 +60,11 @@ section {
   color: white;
   text-align: right;
   float: right;
-  border: 1px solid black;
-  font-size: 125%
-  
+  font-size: 125% ;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
 
   
 }
@@ -70,8 +73,11 @@ section {
   color:white;
   text-align: right;
   float: right;
-  border: 1px solid black ;
-  font-size: 125%
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 125% ;
   
 }
 #box3 {
@@ -79,7 +85,10 @@ section {
   color:black;
   text-align: right;
   float: right;
-  border: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   font-size: 125%
   
   
@@ -196,7 +205,7 @@ p {
 	 
 /********** Small Devices Only, Mobile **********/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   float: left;
   }
